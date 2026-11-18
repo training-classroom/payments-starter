@@ -1,0 +1,39 @@
+# Direct dependencies approved for this service.
+#
+# A package may appear in pyproject.toml (dependencies or any dependency group) only once it is
+# listed here with its license and the reference of the architecture review board (ARB) decision
+# that approved it. Add the entry in the same pull request that adds the dependency; the reviewer
+# checks the reference. scripts/check_dependencies.py enforces this in CI.
+#
+# Licenses the bank accepts without legal review: MIT, BSD-2-Clause, BSD-3-Clause, Apache-2.0,
+# ISC, PSF-2.0. Any other license needs a legal review reference as well.
+
+[packages.fastapi]
+license = "MIT"
+approved = "2025-01-14"
+reference = "ARB-0112"
+
+[packages.pydantic]
+license = "MIT"
+approved = "2025-01-14"
+reference = "ARB-0112"
+
+[packages.pydantic-settings]
+license = "MIT"
+approved = "2025-01-14"
+reference = "ARB-0112"
+
+[packages.sqlalchemy]
+license = "MIT"
+approved = "2025-01-14"
+reference = "ARB-0112"
+
+[packages.pytest]
+license = "MIT"
+approved = "2025-01-14"
+reference = "ARB-0112"
+
+[packages.ruff]
+license = "MIT"
+approved = "2025-01-14"
+reference = "ARB-0112"
